@@ -1,0 +1,32 @@
+
+.catagory{
+    width: 100%;
+    margin-bottom: 150px;
+}
+.catagory-img{
+    width: 82%;
+    margin: 30px auto;
+    display: block;
+}
+.catogary-sortindex{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center
+}
+.catagory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+    /* background: red; */
+}
+.catogary-sortindex p span{
+    font-weight: 600;
+}
+.catagory-item{
+    margin: 20px 170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 80px;
+}
+
